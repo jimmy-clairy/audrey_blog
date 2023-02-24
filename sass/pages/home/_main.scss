@@ -1,0 +1,27 @@
+.main {
+    background:
+    linear-gradient(180deg, rgba($color-primary, 0.8), rgba($color-primary, 0.2)),
+    url('../pictures/compressed/book-1.webp') center / cover;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.main__heading {
+    font-family: sans-serif;
+    font-weight: 100;
+    border-bottom: $color-secondary 1px solid;
+    padding-bottom: 1.5rem;
+    width: 16rem;
+    margin:0 auto 2rem;
+}
+
+.main__paragraph {
+    background-color: rgba($color-secondary, 0.8);
+    border-radius: 3px;
+    color: $color-primary;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem;
+    width: fit-content;
+    margin: auto;
+}

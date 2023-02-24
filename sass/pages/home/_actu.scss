@@ -1,0 +1,46 @@
+.actu {
+    background: $color-white
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.actu .container {
+    padding: 1rem 0.5rem;
+}
+
+.article {
+    width: 15rem;
+    margin: 1rem;
+    border: darken($color-primary,  10) solid 1px;
+    border-radius: 5px;
+    background-color: $color-primary;
+    overflow: hidden;
+}
+
+.article__img {
+    height: 10rem;
+    object-fit: cover;
+}
+
+.article__heading {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    padding: 0 .5rem;
+}
+
+.article__paragraph {
+    text-align: center;
+    padding: 0 1rem;
+}
+
+@media screen and (min-width:800px) {
+    .actu {
+        background:
+        linear-gradient(180deg, rgba($color-white, 1), rgba($color-white, 0.4)),
+        url('../pictures/compressed/book-1.webp') center / cover fixed;
+    }
+}

@@ -1,0 +1,19 @@
+.liseret {
+    background:
+    linear-gradient(180deg, rgba($color-secondary, 0.8), rgba($color-secondary, 0.8)),
+    url('../pictures/compressed/justice.webp') center / cover;
+    padding: 3rem 1rem;
+}
+
+.liseret__title {
+    color: $color-white;
+}
+
+@media screen and (min-width:800px) {
+    .liseret {
+        background:
+        linear-gradient(180deg, rgba($color-secondary, 0.8), rgba($color-secondary, 0.8)),
+        url('../pictures/compressed/justice.webp') center / cover fixed;
+        padding: 3rem 1rem;
+    }
+}
